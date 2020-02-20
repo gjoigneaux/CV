@@ -1,9 +1,13 @@
+.container{
+    width: 100%;
+    height: auto;
+}
 
 /* SIDE BAR */
 .side_bar{
     float: left;
     width: 30%;
-    height: 2000px;
+    height: auto;
     background-color: #424242;
 }
 
@@ -106,7 +110,7 @@
     float: right;
     width: 70%;
     background-color: #E0E0E0;
-    height: 2000px;
+    height: auto;
 }
 
 
