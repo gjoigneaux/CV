@@ -454,11 +454,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
-    .tache{
-        font-size: 0.05em;
-    }
-}
+
 
 .container_comp{
     padding-left: 15%;
