@@ -54,6 +54,12 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .info{
+        font-size: 0.5em;
+    }
+}
+
 .side_bar ul{
     list-style-type: circle;
     color: #E0E0E0;
@@ -83,6 +89,12 @@
 @media screen and (max-width: 480px){
     .side_bar ul{
         font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .side_bar ul{
+        font-size: 0.6em;
     }
 }
 
@@ -129,6 +141,12 @@
 @media screen and (max-width: 480px){
     .interets{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .interets{
+        font-size: 0.5em;
     }
 }
 
@@ -194,6 +212,12 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .name{
+        font-size: 0.5em;
+    }
+}
+
 
 .projet{
     font-size: 1.4em;
@@ -222,6 +246,12 @@
 @media screen and (max-width: 480px){
     .peojet{
         font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .peojet{
+        font-size: 0.4em;
     }
 }
 
@@ -265,6 +295,12 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .exp{
+        font-size: 0.5em;
+    }
+}
+
 .formation{
     padding-left: 15%;
     color: #424242;
@@ -294,6 +330,12 @@
 @media screen and (max-width: 480px){
     .formation{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .comp{
+        font-size: 0.5em;
     }
 }
 
@@ -329,6 +371,12 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .comp{
+        font-size: 0.5em;
+    }
+}
+
 .date{
     float: left;
     padding-left: 15%;
@@ -360,6 +408,12 @@
 @media screen and (max-width: 480px){
     .an{
         font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .an{
+        font-size: 0.7em;
     }
 }
 
@@ -400,6 +454,12 @@
     }
 }
 
+@media screen and (max-width: 320px){
+    .tache{
+        font-size: 0.4em;
+    }
+}
+
 .container_comp{
     padding-left: 15%;
     color: #424242;
@@ -437,5 +497,11 @@
 @media screen and (max-width: 480px){
     .block_comp{
         font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .block_comp{
+        font-size: 0.6em;
     }
 }
