@@ -30,15 +30,27 @@
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .info{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .info{
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .info{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .info{
+        font-size: 1em;
     }
 }
 
@@ -50,15 +62,27 @@
     font-size: 1.6em;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .side_bar ul{
         font-size: 1.4em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .side_bar ul{
         font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .side_bar ul{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .side_bar ul{
+        font-size: 0.8em;
     }
 }
 
@@ -84,15 +108,27 @@
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .interets{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .interets{
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .interets{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .interets{
+        font-size: 1em;
     }
 }
 
@@ -134,34 +170,58 @@
     font-family: 'Alfa Slab One', cursive;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .name{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .name{
         font-size: 2em;
     }
 }
 
+@media screen and (max-width: 768px){
+    .name{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .name{
+        font-size: 1em;
+    }
+}
+
 
 .projet{
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-family: 'Alfa Slab One', cursive;
     font-style: italic;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .projet{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .projet{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .projet{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .peojet{
+        font-size: 0.6em;
     }
 }
 
@@ -181,15 +241,27 @@
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .exp{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .exp{
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .exp{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .exp{
+        font-size: 1em;
     }
 }
 
@@ -201,15 +273,27 @@
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .formation{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .formation{
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .formation{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .formation{
+        font-size: 1em;
     }
 }
 
@@ -221,15 +305,27 @@
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1280px){
     .comp{
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .comp{
         font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comp{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .comp{
+        font-size: 1em;
     }
 }
 
@@ -243,15 +339,27 @@
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1240px){
     .an{
         font-size: 1.1em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .an{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .an{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .an{
+        font-size: 0.8em;
     }
 }
 
@@ -260,7 +368,7 @@
 }
 
 .tache{
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-left: 50%;
     margin-right: 5%;
     margin-top: 20px;
@@ -268,15 +376,27 @@
     color: #424242;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1240px){
     .tache{
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .tache{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .tache{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .tache{
+        font-size: 0.6em;
     }
 }
 
@@ -296,14 +416,26 @@
     color: black;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 1240px){
     .block_comp{
         font-size: 1.1em;
     }
 }
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 1024px){
     .block_comp{
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .block_comp{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .block_comp{
+        font-size: 0.8em;
     }
 }
