@@ -26,67 +26,19 @@
 
 .info{
     color: #424242;
-    font-size: 3em;
+    font-size: 4.5vw;
     background-color: #E0E0E0;
     text-align: center;
     text-decoration: underline;
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 1280px){
-    .info{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .info{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .info{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .info{
-        font-size: 1em;
-    }
-}
-
 .side_bar ul{
     list-style-type: circle;
     color: #E0E0E0;
     padding-left: 15%;
     padding-right: 5%;
-    font-size: 1.6em;
-}
-
-@media screen and (max-width: 1280px){
-    .side_bar ul{
-        font-size: 1.4em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .side_bar ul{
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .side_bar ul{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .side_bar ul{
-        font-size: 0.8em;
-    }
+    font-size: 2.5vw;
 }
 
 .side_bar li{
@@ -96,47 +48,26 @@
 
 .sidebartitle{
     text-decoration: underline;
+    padding-bottom: 15px;
 }
 
 .sidebarinfo{
-    font-size: 0.7em;
+    font-size: 1.75vw;
+
 }
 
 .interets{
     color: #424242;
-    font-size: 3em;
+    font-size: 4vw;
     background-color: #E0E0E0;
     text-align: center;
     text-decoration: underline;
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 1280px){
-    .interets{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .interets{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .interets{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .interets{
-        font-size: 1em;
-    }
-}
-
 .sidebarint{
-    font-size: 0.7em;
+    font-size: 1.75vw;
+
 }
 
 .fas{
@@ -172,63 +103,15 @@
   }
 
 .name{
-    font-size: 3em;
+    font-size: 5vw;
     font-family: 'Alfa Slab One', cursive;
-}
-
-@media screen and (max-width: 1280px){
-    .name{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .name{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .name{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .name{
-        font-size: 1em;
-    }
 }
 
 
 .projet{
-    font-size: 1.4em;
+    font-size: 2.5vw;
     font-family: 'Alfa Slab One', cursive;
     font-style: italic;
-}
-
-@media screen and (max-width: 1280px){
-    .projet{
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .projet{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .projet{
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .peojet{
-        font-size: 0.6em;
-    }
 }
 
 .black_divider{
@@ -242,98 +125,28 @@
   .exp{
     padding-left: 15%;
     color: #424242;
-    font-size: 3em;
+    font-size: 4vw;
     margin-top: 150px;
     font-family: 'Anton', sans-serif;
   }
-
-@media screen and (max-width: 1280px){
-    .exp{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .exp{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .exp{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .exp{
-        font-size: 1em;
-    }
-}
 
 .formation{
     padding-left: 15%;
     color: #424242;
-    font-size: 3em;
+    font-size: 4vw;
     margin-top: 150px;
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 1280px){
-    .formation{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .formation{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .formation{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .formation{
-        font-size: 1em;
-    }
-}
 
 .comp{
     padding-left: 15%;
     color: #424242;
-    font-size: 3em;
+    font-size: 4vw;
     margin-top: 150px;
     font-family: 'Anton', sans-serif;
   }
 
-@media screen and (max-width: 1280px){
-    .comp{
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .comp{
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .comp{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .comp{
-        font-size: 1em;
-    }
-}
 
 .date{
     float: left;
@@ -342,74 +155,27 @@
 }
 
 .an{
-    font-size: 1.2em;
-}
-
-@media screen and (max-width: 1240px){
-    .an{
-        font-size: 1.1em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .an{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .an{
-        font-size: 0.9em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .an{
-        font-size: 0.8em;
-    }
+    font-size: 1.5vw;
 }
 
 .ville{
     font-style: italic;
+    font-size: 1.25vw;
 }
 
 .tache{
-    font-size: 1.4em;
-    margin-left: 50%;
+    font-size: 1.5vw;
+    margin-left: 40%;
     margin-right: 5%;
     margin-top: 20px;
-    padding-left: 15% ;
+    padding-left: 5% ;
     color: #424242;
-}
-
-@media screen and (max-width: 1240px){
-    .tache{
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .tache{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .tache{
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .tache{
-        font-size: 0.6em;
-    }
 }
 
 .container_comp{
     padding-left: 15%;
     color: #424242;
-    font-size: 1em;
+    font-size: 1vw;
     margin-top: 20px;
 }
 
@@ -417,32 +183,197 @@
     display: inline-block;
     margin-right: 5%;
     margin-bottom: 50px;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     text-align: center;
     color: black;
 }
 
-@media screen and (max-width: 1240px){
-    .block_comp{
-        font-size: 1.1em;
-    }
-}
 
-@media screen and (max-width: 1024px){
-    .block_comp{
-        font-size: 1em;
+@media (max-device-width: 425px) {
+    .container{
+        display: flex;
+        width: 100%;
+     }
+     
+     /* SIDE BAR */
+     .side_bar{
+         float: left;
+         width: 30%;
+         height: auto;
+         background-color: #424242;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+     
+     .picture{
+         margin-top: 10px;
+         text-align: center;
+         padding-bottom: 20px;
+     }
+     
+     .picture img{
+         width: 50%;
+     }
+     
+     .info{
+         color: #424242;
+         font-size: 4.5vw;
+         background-color: #E0E0E0;
+         text-align: center;
+         text-decoration: underline;
+         font-family: 'Anton', sans-serif;
+       }
+     
+     .side_bar ul{
+         list-style-type: circle;
+         color: #E0E0E0;
+         padding-left: 15%;
+         padding-right: 5%;
+         font-size: 2.5vw;
+     }
+     
+     .side_bar li{
+         padding-bottom: 10px;
+         list-style: none;
+     }
+     
+     .sidebartitle{
+         text-decoration: underline;
+         font-size: 4.5vw;
+         padding-bottom: 5px ;
+     }
+     
+     .sidebarinfo{
+         font-size: 3vw;
+         padding-bottom: 15px ;
+     }
+     
+     .interets{
+         color: #424242;
+         font-size: 4vw;
+         background-color: #E0E0E0;
+         text-align: center;
+         text-decoration: underline;
+         font-family: 'Anton', sans-serif;
+       }
+     
+     .sidebarint{
+         font-size: 3vw;
+     }
+     
+     .fas{
+         padding-right: 5%;
+     }
+     
+     .container_int{
+         padding-bottom: 5%;
+     }
+     
+     /* CONTENU */
+     .contenu{
+        float: right;
+        width: 70%;
+        background-color: #E0E0E0;
+        height: auto;
     }
-}
-
-@media screen and (max-width: 768px){
-    .block_comp{
-        font-size: 0.9em;
+    
+    .tete{
+        padding-top: 50px;
+        padding-left: 5%;
+        color: #424242;
     }
-}
-
-@media screen and (max-width: 480px){
-    .block_comp{
-        font-size: 0.8em;
+    
+    .black_divider_name{
+        float: right;
+        width: 95%;
+        height: 2px;
+        background: #424242;
+        margin: 0 auto 10px;
+      }
+    
+    .name{
+        font-size: 5vw;
+        font-family: 'Alfa Slab One', cursive;
     }
+    
+    
+    .projet{
+        font-size: 2.5vw;
+        font-family: 'Alfa Slab One', cursive;
+        font-style: italic;
+    }
+    
+    .black_divider{
+        float: right;
+        width: 85%;
+        height: 2px;
+        background: #424242;
+        margin: 0 auto 10px;
+      }
+    
+      .exp{
+        padding-left: 15%;
+        color: #424242;
+        font-size: 4vw;
+        margin-top: 150px;
+        font-family: 'Anton', sans-serif;
+      }
+    
+    .formation{
+        padding-left: 15%;
+        color: #424242;
+        font-size: 4vw;
+        margin-top: 150px;
+        font-family: 'Anton', sans-serif;
+      }
+    
+    
+    .comp{
+        padding-left: 15%;
+        color: #424242;
+        font-size: 4vw;
+        margin-top: 150px;
+        font-family: 'Anton', sans-serif;
+      }
+     
+     .date{
+         float: left;
+         padding-left: 15%;
+         color: #424242;
+     }
+     
+     .an{
+         font-size: 3vw;
+     }
+     
+     .ville{
+         font-style: italic;
+         font-size: 2.75vw;
+     }
+     
+     .tache{
+         font-size: 1.5vw;
+         margin-left: 55%;
+         margin-right: 5%;
+         margin-top: 20px;
+         padding-left: 5% ;
+         color: #424242;
+     }
+     
+     .container_comp{
+         padding-left: 15%;
+         color: #424242;
+         font-size: 1vw;
+         margin-top: 20px;
+     }
+     
+     .block_comp{
+         display: inline-block;
+         margin-right: 5%;
+         margin-bottom: 50px;
+         font-size: 2.1vw;
+         text-align: center;
+         color: black;
+     }        
 }
-
