@@ -240,12 +240,12 @@
      
      .sidebartitle{
          text-decoration: underline;
-         font-size: 4.5vw;
+         font-size: 3.5vw;
          padding-bottom: 5px ;
      }
      
      .sidebarinfo{
-         font-size: 3vw;
+         font-size: 2.5vw;
          padding-bottom: 15px ;
      }
      
@@ -259,7 +259,7 @@
        }
      
      .sidebarint{
-         font-size: 3vw;
+         font-size: 2.5vw;
      }
      
      .fas{
