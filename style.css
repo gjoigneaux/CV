@@ -9,6 +9,9 @@
     width: 30%;
     height: auto;
     background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .picture{
@@ -140,6 +143,9 @@
     padding-right: 5%;
 }
 
+.container_int{
+    padding-bottom: 5%;
+}
 
 /* CONTENU */
 .contenu{
