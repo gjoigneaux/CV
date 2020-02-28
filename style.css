@@ -36,7 +36,7 @@
 .side_bar ul{
     list-style-type: circle;
     color: #E0E0E0;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 5%;
     font-size: 2.5vw;
 }
@@ -53,6 +53,7 @@
 
 .sidebarinfo{
     font-size: 1.75vw;
+    word-wrap: break-word;
 
 }
 
@@ -116,14 +117,13 @@
 
 .black_divider{
     float: right;
-    width: 85%;
+    width: 90%;
     height: 2px;
     background: #424242;
-    margin: 0 auto 10px;
   }
 
   .exp{
-    padding-left: 15%;
+    padding-left: 10%;
     color: #424242;
     font-size: 4vw;
     margin-top: 150px;
@@ -131,7 +131,7 @@
   }
 
 .formation{
-    padding-left: 15%;
+    padding-left: 10%;
     color: #424242;
     font-size: 4vw;
     margin-top: 150px;
@@ -140,7 +140,7 @@
 
 
 .comp{
-    padding-left: 15%;
+    padding-left: 10%;
     color: #424242;
     font-size: 4vw;
     margin-top: 150px;
@@ -150,7 +150,7 @@
 
 .date{
     float: left;
-    padding-left: 15%;
+    padding-left: 10%;
     color: #424242;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .container_comp{
-    padding-left: 15%;
+    padding-left: 10%;
     color: #424242;
     font-size: 1vw;
     margin-top: 20px;
@@ -228,7 +228,7 @@
      .side_bar ul{
          list-style-type: circle;
          color: #E0E0E0;
-         padding-left: 15%;
+         padding-left: 10%;
          padding-right: 5%;
          font-size: 2.5vw;
      }
@@ -307,14 +307,14 @@
     
     .black_divider{
         float: right;
-        width: 85%;
+        width: 90%;
         height: 2px;
         background: #424242;
         margin: 0 auto 10px;
       }
     
       .exp{
-        padding-left: 15%;
+        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
         margin-top: 150px;
@@ -322,7 +322,7 @@
       }
     
     .formation{
-        padding-left: 15%;
+        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
         margin-top: 150px;
@@ -331,7 +331,7 @@
     
     
     .comp{
-        padding-left: 15%;
+        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
         margin-top: 150px;
@@ -340,7 +340,7 @@
      
      .date{
          float: left;
-         padding-left: 15%;
+         padding-left: 10%;
          color: #424242;
      }
      
@@ -364,7 +364,7 @@
      }
      
      .container_comp{
-         padding-left: 15%;
+         padding-left: 10%;
          color: #424242;
          font-size: 1vw;
          margin-top: 20px;
