@@ -247,7 +247,7 @@
      .sidebarinfo{
          font-size: 2.5vw;
          padding-bottom: 15px ;
-         margin-left: -5%;
+         word-wrap: break-word;
      }
      
      .interets{
