@@ -189,7 +189,7 @@
 }
 
 
-@media screen and (device-width: 425px) {
+@media screen and (max-device-width: 425px) {
     .container{
         display: flex;
         width: 100%;
