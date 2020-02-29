@@ -356,6 +356,10 @@
      .an{
          font-size: 3vw;
      }
+
+     .an .fas{
+        vertical-align: auto;
+     }
      
      .ville{
          font-style: italic;
