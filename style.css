@@ -1,3 +1,4 @@
+@media screen and (min-device-width: 769px) {
 .container{
    display: flex;
    width: 100%;
@@ -22,6 +23,7 @@
 
 .picture img{
     width: 50%;
+    border-radius: 50%;
 }
 
 .info{
@@ -36,13 +38,12 @@
 .side_bar ul{
     list-style-type: circle;
     color: #E0E0E0;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
     font-size: 2.5vw;
 }
 
 .side_bar li{
-    padding-bottom: 10px;
     list-style: none;
 }
 
@@ -54,7 +55,7 @@
 .sidebarinfo{
     font-size: 1.75vw;
     word-wrap: break-word;
-
+    padding-bottom: 15px;
 }
 
 .interets{
@@ -75,9 +76,10 @@
     padding-right: 5%;
 }
 
-.container_int{
-    padding-bottom: 5%;
+.container_int li{
+    padding-bottom: 15px;
 }
+
 
 /* CONTENU */
 .contenu{
@@ -126,7 +128,7 @@
     padding-left: 10%;
     color: #424242;
     font-size: 4vw;
-    margin-top: 150px;
+    margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
 
@@ -134,7 +136,7 @@
     padding-left: 10%;
     color: #424242;
     font-size: 4vw;
-    margin-top: 150px;
+    margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
 
@@ -143,7 +145,7 @@
     padding-left: 10%;
     color: #424242;
     font-size: 4vw;
-    margin-top: 150px;
+    margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
 
@@ -187,13 +189,14 @@
     text-align: center;
     color: black;
 }
-
+}
 
 @media screen and (max-device-width: 768px) {
     .container{
         display: flex;
         width: 100%;
         flex-direction: column;
+        text-align: center;
      }
      
      /* SIDE BAR */
@@ -214,6 +217,7 @@
      
      .picture img{
          width: 50%;
+         border-radius: 50%;
      }
      
      .info{
@@ -228,24 +232,22 @@
      .side_bar ul{
          list-style-type: circle;
          color: #E0E0E0;
-         padding-left: 10%;
+         padding-left: 5%;
          padding-right: 5%;
-         font-size: 2.5vw;
      }
      
      .side_bar li{
-         padding-bottom: 10px;
          list-style: none;
      }
      
      .sidebartitle{
          text-decoration: underline;
-         font-size: 3.5vw;
+         font-size: 4.5vw;
          padding-bottom: 5px ;
      }
      
      .sidebarinfo{
-         font-size: 2.5vw;
+         font-size: 3.5vw;
          padding-bottom: 15px ;
          word-wrap: break-word;
      }
@@ -260,20 +262,28 @@
        }
      
      .sidebarint{
-         font-size: 2.5vw;
+         visibility: hidden;
+         font-size: 0px;
      }
      
      .fas{
-         padding-right: 5%;
+         padding-right: 15px;
      }
-     
+
      .container_int{
-         padding-bottom: 5%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+
+     .container_int .fas{
+        font-size: 10vw;
      }
      
      /* CONTENU */
      .contenu{
         width: 100%;
+        background-color: #E0E0E0;
     }
     
     .tete{
@@ -283,11 +293,10 @@
     }
     
     .black_divider_name{
-        float: right;
-        width: 95%;
+        margin: auto;
+        width: 90%;
         height: 2px;
         background: #424242;
-        margin: 0 auto 10px;
       }
     
     .name{
@@ -303,35 +312,32 @@
     }
     
     .black_divider{
-        float: right;
-        width: 90%;
+        width: 80%;
         height: 2px;
         background: #424242;
-        margin: 0 auto 40px;
+        margin: auto ;
+        margin-bottom: 15px;
       }
     
       .exp{
-        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
-        margin-top: 150px;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
     
     .formation{
-        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
-        margin-top: 150px;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
     
     
     .comp{
-        padding-left: 10%;
         color: #424242;
         font-size: 4vw;
-        margin-top: 150px;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
      
@@ -353,25 +359,32 @@
      .ville{
          font-style: italic;
          font-size: 2.75vw;
+         padding-bottom: 30px;
      }
      
      .tache{
-         font-size: 1.5vw;
+         font-size: 3vw;
          color: #424242;
+         padding-bottom: 50px;
+         padding-left: 5%;
+         padding-right: 5%;
+     }
+
+     .compétence{
+         display: flex;
+         justify-content: center;
      }
      
      .container_comp{
-         padding-left: 10%;
          color: #424242;
-         font-size: 1vw;
-         margin-top: 20px;
+         text-align: center;
      }
      
      .block_comp{
          display: inline-block;
          margin-right: 5%;
          margin-bottom: 50px;
-         font-size: 2.1vw;
+         font-size: 3vw;
          text-align: center;
          color: black;
      }      
