@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 769px) {
+@media (min-device-width: 769px) {
 .container{
    display: flex;
    width: 100%;
@@ -191,7 +191,7 @@
 }
 }
 
-@media screen and (max-device-width: 768px) {
+@media (max-device-width: 768px) {
     .container{
         display: flex;
         width: 100%;
@@ -371,11 +371,6 @@
          padding-right: 5%;
      }
 
-     .compétence{
-         display: flex;
-         justify-content: center;
-     }
-     
      .container_comp{
          color: #424242;
          text-align: center;
