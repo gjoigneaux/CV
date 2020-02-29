@@ -355,7 +355,8 @@
      
      .an{
          font-size: 3vw;
-         vertical-align: middle;
+         display: flex;
+         justify-content: center;
      }
      
      .ville{
