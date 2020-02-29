@@ -198,6 +198,11 @@
         flex-direction: column;
         text-align: center;
      }
+
+     .fas{
+        padding-right: 15px;
+        vertical-align: middle;
+    }
      
      /* SIDE BAR */
      .side_bar{
@@ -264,10 +269,6 @@
      .sidebarint{
          visibility: hidden;
          font-size: 0px;
-     }
-     
-     .fas{
-         padding-right: 15px;
      }
 
      .container_int{
