@@ -1,4 +1,4 @@
-@media (min-device-width: 960px) {
+@media (min-width: 961px){
 .container{
    display: flex;
    width: 100%;
@@ -191,7 +191,7 @@
 }
 }
 
-@media (max-device-width: 959px) {
+@media (max-width: 960px) {
     .container{
         display: flex;
         width: 100%;
