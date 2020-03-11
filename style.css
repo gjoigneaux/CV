@@ -1,7 +1,9 @@
 @media (min-width: 961px){
 .container{
    display: flex;
-   width: 100%;
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
 }
 
 /* SIDE BAR */
@@ -28,7 +30,7 @@
 
 .info{
     color: #424242;
-    font-size: 4.5vw;
+    font-size: 4vw;
     background-color: #E0E0E0;
     text-align: center;
     text-decoration: underline;
@@ -40,7 +42,7 @@
     color: #E0E0E0;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .side_bar li{
@@ -53,7 +55,7 @@
 }
 
 .sidebarinfo{
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     word-wrap: break-word;
     padding-bottom: 15px;
 }
@@ -68,7 +70,7 @@
   }
 
 .sidebarint{
-    font-size: 1.75vw;
+    font-size: 1.5vw;
 
 }
 
@@ -106,13 +108,13 @@
   }
 
 .name{
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-family: 'Alfa Slab One', cursive;
 }
 
 
 .projet{
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: 'Alfa Slab One', cursive;
     font-style: italic;
 }
@@ -127,7 +129,7 @@
   .exp{
     padding-left: 10%;
     color: #424242;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -135,7 +137,7 @@
 .formation{
     padding-left: 10%;
     color: #424242;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -144,7 +146,7 @@
 .comp{
     padding-left: 10%;
     color: #424242;
-    font-size: 4vw;
+    font-size: 3.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -157,16 +159,16 @@
 }
 
 .an{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
 }
 
 .ville{
     font-style: italic;
-    font-size: 1.25vw;
+    font-size: 1vw;
 }
 
 .tache{
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     margin-left: 40%;
     margin-right: 5%;
     margin-top: 20px;
@@ -185,7 +187,7 @@
     display: inline-block;
     margin-right: 5%;
     margin-bottom: 50px;
-    font-size: 1.2vw;
+    font-size: 1vw;
     text-align: center;
     color: black;
 }
