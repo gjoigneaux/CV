@@ -115,7 +115,7 @@
     width: 95%;
     height: 2px;
     background: #424242;
-    margin: 0 auto 10px;
+    margin: 0 auto 50px;
   }
 
 .name{
@@ -138,6 +138,7 @@
   }
 
   .exp{
+    display: inline;  
     padding-left: 10%;
     color: #424242;
     font-size: 3.5vw;
@@ -146,6 +147,7 @@
   }
 
 .formation{
+    display: inline; 
     padding-left: 10%;
     color: #424242;
     font-size: 3.5vw;
@@ -155,6 +157,7 @@
 
 
 .comp{
+    display: inline; 
     padding-left: 10%;
     color: #424242;
     font-size: 3.5vw;
@@ -163,6 +166,7 @@
   }
 
 .recom{
+    display: inline; 
     padding-left: 10%;
     color: #424242;
     font-size: 3.5vw;
@@ -344,7 +348,7 @@
     }
     
     .black_divider_name{
-        margin: auto;
+        margin: 0 auto 50px;
         width: 90%;
         height: 2px;
         background: #424242;
@@ -371,29 +375,38 @@
       }
     
       .exp{
+        display: inline; 
         color: #424242;
         font-size: 4vw;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
     
     .formation{
+        display: inline; 
         color: #424242;
         font-size: 4vw;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
     
     
     .comp{
+        display: inline; 
         color: #424242;
         font-size: 4vw;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
       }
 
     .recom{
+        display: inline; 
         padding-left: 10%;
         color: #424242;
+        font-size: 4vw;
+        margin-top: 70px;
         font-family: 'Anton', sans-serif;
-    }
+      }
      
       .blocksection{
         display: flex;
