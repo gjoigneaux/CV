@@ -30,10 +30,9 @@
 
 .info{
     color: #424242;
-    font-size: 4vw;
+    font-size: 2vw;
     background-color: #E0E0E0;
     text-align: center;
-    text-decoration: underline;
     font-family: 'Anton', sans-serif;
   }
 
@@ -50,12 +49,12 @@
 }
 
 .sidebartitle{
-    text-decoration: underline;
+    font-size: 1.2vw;
     padding-bottom: 15px;
 }
 
 .sidebarinfo{
-    font-size: 1.5vw;
+    font-size: 1vw;
     word-wrap: break-word;
     padding-bottom: 15px;
     
@@ -63,22 +62,13 @@
 
 .sidebarpropos
 {
-    font-size: 1.5vw;
+    font-size: 1vw;
     word-wrap: break-word;
     padding-bottom: 15px;
     color: #E0E0E0;
     padding-left: 5%;
     padding-right: 5%;
 }
-
-.interets{
-    color: #424242;
-    font-size: 4vw;
-    background-color: #E0E0E0;
-    text-align: center;
-    text-decoration: underline;
-    font-family: 'Anton', sans-serif;
-  }
 
 .sidebarint{
     font-size: 1.5vw;
@@ -89,8 +79,15 @@
     padding-right: 5%;
 }
 
+.container_int{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 .container_int li{
     padding-bottom: 15px;
+    display: inline;
 }
 
 
@@ -114,21 +111,20 @@
 }
 
 .black_divider_name{
-    float: right;
-    width: 100%;
+    width: 15%;
     height: 2px;
     background: #424242;
-    margin: 0 auto 50px;
+    margin-bottom: 40px;
   }
 
 .name{
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     font-family: 'Alfa Slab One', cursive;
 }
 
 
 .projet{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Alfa Slab One', cursive;
     font-style: italic;
 }
@@ -140,11 +136,11 @@
     background: #424242;
   }
 
-  .exp{
+.exp{
     display: inline;  
     padding-left: 10%;
     color: #424242;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -153,7 +149,7 @@
     display: inline; 
     padding-left: 10%;
     color: #424242;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -163,7 +159,7 @@
     display: inline; 
     padding-left: 10%;
     color: #424242;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -172,7 +168,7 @@
     display: inline; 
     padding-left: 10%;
     color: #424242;
-    font-size: 3.5vw;
+    font-size: 1.5vw;
     margin-top: 70px;
     font-family: 'Anton', sans-serif;
   }
@@ -181,6 +177,7 @@
 .date{
     float: left;
     padding-left: 10%;
+    width: 30%;
     color: #424242;
 }
 
@@ -191,6 +188,7 @@
 .ville{
     font-style: italic;
     font-size: 1vw;
+    padding-left: 14%;
 }
 
 .tache{
@@ -212,10 +210,14 @@
 .block_comp{
     display: inline-block;
     margin-right: 5%;
-    margin-bottom: 50px;
     font-size: 1vw;
     text-align: center;
-    color: black;
+    color: #424242;
+}
+
+.block_comp img{
+    width: 25px;
+	height: 25px;
 }
 
 .persreco{
@@ -224,7 +226,7 @@
     padding-bottom: 70px;
     font-size: 1.25vw;
     text-align: center;
-    color: black;
+    color: #424242;
 }
 
 .persreco_1{
@@ -280,7 +282,6 @@
          font-size: 4.5vw;
          background-color: #E0E0E0;
          text-align: center;
-         text-decoration: underline;
          font-family: 'Anton', sans-serif;
        }
      
@@ -330,15 +331,16 @@
          font-size: 0px;
      }
 
-     .container_int{
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-     }
+    .container_int{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
 
-     .container_int .fas{
-        font-size: 10vw;
-     }
+    .container_int li{
+        padding-bottom: 15px;
+        display: inline;
+    }
      
      /* CONTENU */
      .contenu{
@@ -353,10 +355,11 @@
     }
     
     .black_divider_name{
-        margin: 0 auto 50px;
-        width: 90%;
+        width: 20%;
         height: 2px;
         background: #424242;
+        margin-left: 20%;
+        margin-bottom: 30px;
       }
     
     .name{
